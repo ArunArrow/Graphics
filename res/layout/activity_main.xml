@@ -29,4 +29,33 @@
         android:layout_alignTop="@+id/editText1"
         android:text="Submit" />
 
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="100"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="100"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginLeft="21dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/editText2"
+        android:text="Submit" />
+
 </RelativeLayout>
